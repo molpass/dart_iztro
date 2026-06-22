@@ -249,26 +249,25 @@ class IztroTranslationService extends Translations {
   static void init({String? initialLocale}) {
     Get.config(enableLog: false);
 
-    if (initialLocale != null) {
-      Get.locale = _getLocaleFromString(initialLocale);
-    }
+    // molpass 한국어판: 명시적 지정이 없으면 기본 언어를 한국어(ko_KR)로 설정
+    Get.locale = _getLocaleFromString(initialLocale ?? 'ko_KR');
   }
 
-  /// 设置当前语言
+  /// 현재 언어 설정
   ///
-  /// 使用ISO代码，例如：'zh_CN', 'en_US'
+  /// ISO 코드 사용, 예: 'zh_CN', 'en_US', 'ko_KR'
   static void changeLocale(String locale) {
     Get.updateLocale(_getLocaleFromString(locale));
   }
 
-  /// 获取当前语言
+  /// 현재 언어(Locale) 가져오기
   static Locale? get currentLocale => Get.locale;
 
-  /// 获取当前语言的代码
-  static String get currentLanguageCode => Get.locale?.languageCode ?? 'zh';
+  /// 현재 언어 코드 가져오기 (기본값: 한국어)
+  static String get currentLanguageCode => Get.locale?.languageCode ?? 'ko';
 
-  /// 获取当前国家代码
-  static String get currentCountryCode => Get.locale?.countryCode ?? 'CN';
+  /// 현재 국가 코드 가져오기 (기본값: 한국)
+  static String get currentCountryCode => Get.locale?.countryCode ?? 'KR';
 
   /// 从字符串解析Locale对象
   static Locale _getLocaleFromString(String localeString) {
