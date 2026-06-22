@@ -2,6 +2,8 @@
 
 [English](README.md) | [简体中文](README.zh_CN.md) | [繁體中文](README.zh_TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [ภาษาไทย](README.th.md) | [Tiếng Việt](README.vi.md)
 
+> 🇰🇷 이 저장소는 **molpass가 포크한 사본**입니다. (원저장소: [@SylarLong/iztro](https://github.com/SylarLong/iztro))
+
 다중 플랫폼을 지원하는 자미두수(紫微斗數)와 팔자(八字) 계산 Flutter 플러그인. 자미두수 별자리와 팔자 계산 기능을 제공하며, 음력과 양력 전환을 지원하고, 운명 분석, 점술 및 별자리 분석 응용 프로그램에 사용할 수 있습니다.
 
 > **면책 조항**: 이 프로젝트 코드는 [@SylarLong/iztro](https://github.com/SylarLong/iztro)에서 파생되었습니다. 원작자의 오픈 소스 기여에 감사드립니다.

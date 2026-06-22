@@ -2,6 +2,8 @@
 
 [English](README.md) | [简体中文](README.zh_CN.md) | [繁體中文](README.zh_TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [ภาษาไทย](README.th.md) | [Tiếng Việt](README.vi.md)
 
+> 🇰🇷 이 저장소는 **molpass가 포크한 사본**입니다. 한국어 설명은 [README.ko.md](./README.ko.md)에 이미 제공됩니다.
+
 A cross-platform Flutter plugin for Purple Star Astrology (Zi Wei Dou Shu) and BaZi calculations. It provides functionality for calculating Purple Star astrology charts and BaZi, supports lunar and solar calendar conversion, and can be used for destiny analysis, divination, and astrological applications.
 
 > **Disclaimer**: This project code is derived from [@SylarLong/iztro](https://github.com/SylarLong/iztro). Thanks to the original author for the open-source contribution.
